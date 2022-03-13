@@ -5,7 +5,7 @@ export default function Footer() {
           <li>
             Repository at{" "}
             <a
-              href="https://github.com/hackerchai/frontend-learn"
+              href="https://github.com/hackerchai/frontend-class"
               target="_blank"
               rel="noopener noreferrer"
               className="font-bold"
