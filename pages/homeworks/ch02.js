@@ -1,5 +1,3 @@
-import styles from '../../styles/Home.module.css'
-
 export default function ch_02() {
     return (
         <div className="flex flex-col justify-center space-y-5">

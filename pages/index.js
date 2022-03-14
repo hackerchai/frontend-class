@@ -1,17 +1,14 @@
-import Image from 'next/image'
-import Head from 'next/head'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center space-y-12 py-12 px-6">
 
-      <h1 className={styles.title}>
+      <h1 className="title mb-3 text-xl font-bold">
         Welcome to <a href="https://hackerchai.com">Hackerchai Lab!</a>
       </h1>
 
-      <p className={styles.description}>
+      <p className="description">
         Made by <a href="mailto:i@hackerchai.com">Hackerchai 💗</a> {' '}
       </p>
 

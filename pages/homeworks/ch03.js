@@ -1,5 +1,9 @@
-
 import Image from 'next/image'
+import exImage from '../../public/images/ta.jpg'
+
+const myLoader = ({ src }) => {
+    return src
+  }
 
 export default function ch_03() {
     return (
@@ -22,10 +26,10 @@ export default function ch_03() {
             </div>
 
             <section className="mb-6">
-                <Image src="/images/ta.jpg" width="200" height="200" /><br />
+                <Image src={exImage} width="200" height="200" alt="江泽民" loader={myLoader}/>
             </section>
             <section>
-                <embed src="/assets/jounalist.mp3" autostart="true" />
+                <embed src="/assets/jounalist.mp3" autostart="true" width="0" height="0"/>
             </section>
             <section>
                 <marquee bgcolor="green" width="285" height="100" direction="up"><font 信息 color="white" size="6" center="center">我给长者续一秒+1s</font></marquee>
