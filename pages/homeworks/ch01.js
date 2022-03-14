@@ -1,4 +1,10 @@
 import Image from 'next/image'
+import blogImage from '../../public/images/blog.svg'
+import githubImage from '../../public/images/github.svg'
+
+const myLoader = ({ src }) => {
+    return src
+  }
 
 export default function ch_01() {
     return (
@@ -15,9 +21,9 @@ export default function ch_01() {
             <p>I am focusing on these social issues: <code>Human Rights</code>, <code>Liberty</code>, <code>Privacy</code>,
                 <code>Copyright</code>, <code>Information transparency</code>.</p>
             <p><a href="https://github.com/hackerchai"><Image
-                src="https://cdn.jsdelivr.net/npm/hackerchai@0.2.2/homepage/github.svg" width="93" height="28" /></a> <a
+                src={githubImage} width="93" height="28" alt="Github"loader={myLoader}/></a> <a
                     href="https://blog.hackerchai.com"><Image
-                        src="https://cdn.jsdelivr.net/npm/hackerchai@0.2.2/homepage/blog.svg" width="77" height="28" /></a></p>
+                        src={blogImage} width="77" height="28" alt="Blog" loader={myLoader}/></a></p>
             <h2>Coding</h2>
             <p>I am using these program languages and tools:</p>
             <ul>
