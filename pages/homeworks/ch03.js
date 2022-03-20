@@ -1,9 +1,6 @@
 import Image from 'next/image'
 import exImage from '../../public/images/ta.jpg'
 
-const myLoader = ({ src }) => {
-    return src
-  }
 
 export default function ch_03() {
     return (
@@ -26,7 +23,7 @@ export default function ch_03() {
             </div>
 
             <section className="mb-6">
-                <Image src={exImage} width="200" height="200" alt="江泽民" loader={myLoader}/>
+                <Image src={exImage} width="200" height="200" alt="江泽民"/>
             </section>
             <section>
                 <embed src="/assets/jounalist.mp3" autostart="true" width="0" height="0"/>
