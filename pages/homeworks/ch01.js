@@ -2,10 +2,6 @@ import Image from 'next/image'
 import blogImage from '../../public/images/blog.svg'
 import githubImage from '../../public/images/github.svg'
 
-const myLoader = ({ src }) => {
-    return src
-  }
-
 export default function ch_01() {
     return (
         <div className="flex flex-col justify-center space-y-3">
@@ -21,9 +17,9 @@ export default function ch_01() {
             <p>I am focusing on these social issues: <code>Human Rights</code>, <code>Liberty</code>, <code>Privacy</code>,
                 <code>Copyright</code>, <code>Information transparency</code>.</p>
             <p><a href="https://github.com/hackerchai"><Image
-                src={githubImage} width="93" height="28" alt="Github"loader={myLoader}/></a> <a
+                src={githubImage} width="93" height="28" alt="Github"/></a> <a
                     href="https://blog.hackerchai.com"><Image
-                        src={blogImage} width="77" height="28" alt="Blog" loader={myLoader}/></a></p>
+                        src={blogImage} width="77" height="28" alt="Blog"/></a></p>
             <h2>Coding</h2>
             <p>I am using these program languages and tools:</p>
             <ul>

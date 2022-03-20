@@ -3,10 +3,6 @@ import { useState } from "react";
 import cn from "classnames";
 import Image from "next/image";
 
-const myLoader = ({ src }) => {
-  return src
-}
-
 export default function Header() {
   const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
 
@@ -19,7 +15,6 @@ export default function Header() {
             width={40}
             height={40}
             priority
-            loader={myLoader}
             alt="Tailwind CSS logo"
           />
 

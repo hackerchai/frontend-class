@@ -9,10 +9,10 @@ export default function Home() {
       </h1>
 
       <p className="description">
-        Made by <a href="mailto:i@hackerchai.com">Hackerchai 💗</a> {' '}
+        Made by <a href="mailto:i@hackerchai.com">Hackerchai 👧🏻</a> {' '}
       </p>
 
-      <div className="grid grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <Link href="/homeworks/ch01" passHref>
           <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
             <h2 className="mb-3 text-xl font-bold">第一次作业 &rarr;</h2>
@@ -34,6 +34,19 @@ export default function Home() {
           </div>
         </Link>
 
+        <Link href="/homeworks/ch04" passHref>
+          <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
+            <h2 className="mb-3 text-xl font-bold">第四次作业 &rarr;</h2>
+            <p>表格</p>
+          </div>
+        </Link>
+
+        <Link href="/homeworks/ch05" passHref>
+          <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
+            <h2 className="mb-3 text-xl font-bold">第五次作业 &rarr;</h2>
+            <p>DIV以及CSS的应用</p>
+          </div>
+        </Link>
 
         <a href="https://www.youtube.com/watch?v=VI9cMDhcw0Y" passHref>
           <div className="max-w-md h-64 flex flex-col justify-between bg-white  rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
