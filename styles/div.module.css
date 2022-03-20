@@ -1,0 +1,83 @@
+#a {
+    width: 1000px;
+    height: 600px;
+    margin: 10px auto;
+    border: 4px solid blueviolet;
+}
+
+#b {
+    width: 900px;
+    height: 100px;
+    margin: 20px auto;
+    border: 4px solid blueviolet;
+}
+
+#c {
+    width: 900px;
+    height: 180px;
+    margin: 20px auto;
+    border: 4px solid blueviolet;
+}
+
+#c1 {
+    width: 150px;
+    height: 150px;
+    margin: 10px 34px 10px;
+    float: right;
+    border: 4px solid blueviolet;
+}
+
+#c2 {
+    width: 150px;
+    height: 150px;
+    margin: 10px 34px 10px;
+    float: right;
+    border: 4px solid blueviolet;
+}
+
+#c3 {
+    width: 150px;
+    height: 150px;
+    margin: 10px 34px 10px;
+    float: right;
+    border: 4px solid blueviolet;
+}
+
+#c4 {
+    width: 150px;
+    height: 150px;
+    margin: 10px 34px 10px;
+    float: right;
+    border: 4px solid blueviolet;
+}
+
+#d {
+    width: 900px;
+    height: 180px;
+    margin: 20px auto;
+    border: 4px solid blueviolet;
+}
+
+#d1 {
+    width: 220px;
+    height: 150px;
+    margin: 10px 35px 10px;
+    float: right;
+    border: 4px solid blueviolet;
+}
+
+#d2 {
+    width: 220px;
+    height: 150px;
+    margin: 10px 35px 10px;
+    float: right;
+    border: 4px solid blueviolet;
+}
+
+#d3 {
+    width: 220px;
+    height: 150px;
+    margin: 10px 35px 10px;
+    float: right;
+    border: 4px solid blueviolet;
+}
