@@ -1,0 +1,62 @@
+.body {
+    /* 弹性盒模型 */
+    display: flex;
+    /* 开启弹性盒模型 */
+    justify-content: center;
+    /* 左右居中 */
+    align-items: center;
+    /* 上下垂直居中 */
+    height: 100vh;
+    /* 自适应可视化窗口，vh在显示的窗口里自适应，1代表1份，100代表整个窗口，根据可视化窗口进行变化 */
+    margin: 0;
+    background-color: #222222;
+}
+
+.h1 {
+    position: relative;
+    /* 相对定位 */
+    color: rgb(129, 129, 126);
+    font-size: 80px;
+    letter-spacing: -5px;
+    /* 文字行间距 正数加大，负数变小 */
+}
+
+.h1::after {
+    /* 伪元素  虚拟标签 设置尺寸 内容 属于h1下*/
+    content: "闷声大发财";
+    /* 激活伪元素  空值也要有*/
+    position: absolute;
+    /* 定位 位置的变化 绝对定位 */
+    left: -5px;
+    top: 5px;
+    color: transparent;
+    /* 设置透明色 */
+    background-image: radial-gradient(circle 300px at 8% 89.3%, rgba(20, 157, 208, 1) 0%, rgba(140, 63, 226, 1) 90%);
+    /* background-image: radial-gradient( circle 597px at 93% 9.8%,  rgba(255,61,89,1) 1.7%, rgba(252,251,44,1) 97% ); */
+    -webkit-background-clip: text;
+    background-clip: text;
+    clip-path: ellipse(100px 100px at 0% 50%);
+    /* 裁剪 横竖轴 at 后面横向百分数
+    0是开始，50是中间，100是结束 */
+    animation: run 3s infinite;
+    /* 伪类改变动画 名称 时间 连续执行*/
+}
+
+@keyframes run {
+
+    /* css3动画 run 动画名 */
+    0% {
+        clip-path: ellipse(100px 100px at 0% 50%);
+        /* 开始移动 */
+    }
+
+    50% {
+        clip-path: ellipse(100px 100px at 100% 50%);
+        /* 移动尾 */
+    }
+
+    100% {
+        clip-path: ellipse(100px 100px at 0% 50%);
+        /* 移动头 */
+    }
+}
