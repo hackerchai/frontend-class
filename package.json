@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "classnames": "^2.3.1",
+    "daisyui": "^2.13.3",
     "next": "12.1.0",
     "postcss-100vh-fix": "^1.0.2",
     "postcss-flexbugs-fixes": "^5.0.2",
