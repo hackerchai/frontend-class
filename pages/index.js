@@ -62,6 +62,20 @@ export default function Home() {
           </div>
         </Link>
 
+        <Link href="/homeworks/ch08" passHref>
+          <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
+            <h2 className="mb-3 text-xl font-bold">第八次作业 &rarr;</h2>
+            <p>JS的应用 1</p>
+          </div>
+        </Link>
+
+        <Link href="/homeworks/ch09" passHref>
+          <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
+            <h2 className="mb-3 text-xl font-bold">第九次作业 &rarr;</h2>
+            <p>JS的应用 2</p>
+          </div>
+        </Link>
+
         <a href="https://www.youtube.com/watch?v=VI9cMDhcw0Y" passHref>
           <div className="max-w-md h-64 flex flex-col justify-between bg-white  rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
             <h2 className="mb-3 text-xl font-bold">未完待续 &rarr;</h2>
