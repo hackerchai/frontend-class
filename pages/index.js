@@ -76,6 +76,13 @@ export default function Home() {
           </div>
         </Link>
 
+        <Link href="/homeworks/ex01" passHref>
+          <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
+            <h2 className="mb-3 text-xl font-bold">第一次实验 &rarr;</h2>
+            <p>登录页面</p>
+          </div>
+        </Link>
+
         <a href="https://www.youtube.com/watch?v=VI9cMDhcw0Y" passHref>
           <div className="max-w-md h-64 flex flex-col justify-between bg-white  rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
             <h2 className="mb-3 text-xl font-bold">未完待续 &rarr;</h2>
