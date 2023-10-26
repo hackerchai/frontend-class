@@ -13,70 +13,70 @@ export default function Home() {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <Link href="/homeworks/ch01" passHref>
+        <Link href="/homeworks/ch01" passHref legacyBehavior>
           <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
             <h2 className="mb-3 text-xl font-bold">第一次作业 &rarr;</h2>
             <p>个人主页</p>
           </div>
         </Link>
 
-        <Link href="/homeworks/ch02" passHref>
+        <Link href="/homeworks/ch02" passHref legacyBehavior>
           <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
             <h2 className="mb-3 text-xl font-bold">第二次作业 &rarr;</h2>
             <p>文章排版练习</p>
           </div>
         </Link>
 
-        <Link href="/homeworks/ch03" passHref>
+        <Link href="/homeworks/ch03" passHref legacyBehavior>
           <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
             <h2 className="mb-3 text-xl font-bold">第三次作业 &rarr;</h2>
             <p>超链接、图片、音频</p>
           </div>
         </Link>
 
-        <Link href="/homeworks/ch04" passHref>
+        <Link href="/homeworks/ch04" passHref legacyBehavior>
           <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
             <h2 className="mb-3 text-xl font-bold">第四次作业 &rarr;</h2>
             <p>表格</p>
           </div>
         </Link>
 
-        <Link href="/homeworks/ch05" passHref>
+        <Link href="/homeworks/ch05" passHref legacyBehavior>
           <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
             <h2 className="mb-3 text-xl font-bold">第五次作业 &rarr;</h2>
             <p>DIV以及CSS的应用</p>
           </div>
         </Link>
 
-        <Link href="/homeworks/ch06" passHref>
+        <Link href="/homeworks/ch06" passHref legacyBehavior>
           <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
             <h2 className="mb-3 text-xl font-bold">第六次作业 &rarr;</h2>
             <p>轮播图</p>
           </div>
         </Link>
 
-        <Link href="/homeworks/ch07" passHref>
+        <Link href="/homeworks/ch07" passHref legacyBehavior>
           <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
             <h2 className="mb-3 text-xl font-bold">第七次作业 &rarr;</h2>
             <p>文字动画</p>
           </div>
         </Link>
 
-        <Link href="/homeworks/ch08" passHref>
+        <Link href="/homeworks/ch08" passHref legacyBehavior>
           <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
             <h2 className="mb-3 text-xl font-bold">第八次作业 &rarr;</h2>
             <p>JS的应用 1</p>
           </div>
         </Link>
 
-        <Link href="/homeworks/ch09" passHref>
+        <Link href="/homeworks/ch09" passHref legacyBehavior>
           <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
             <h2 className="mb-3 text-xl font-bold">第九次作业 &rarr;</h2>
             <p>JS的应用 2</p>
           </div>
         </Link>
 
-        <Link href="/homeworks/ex01" passHref>
+        <Link href="/homeworks/ex01" passHref legacyBehavior>
           <div className="max-w-md h-64 flex flex-col justify-between bg-white rounded-lg border border-gray-400 mb-0 py-5 px-4 shadow-md">
             <h2 className="mb-3 text-xl font-bold">第一次实验 &rarr;</h2>
             <p>登录页面</p>
@@ -92,6 +92,5 @@ export default function Home() {
 
       </div>
     </div>
-
-  )
+  );
 }
