@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import slideImageOne from '../../public/images/slide-1.jpg'
-import slideImageTwo from '../../public/images/slide-2.jpg'
-import slideImageThree from '../../public/images/slide-3.jpg'
-import slideImageFour from '../../public/images/slide-4.jpg'
+import slideImageOne from '../../../public/images/slide-1.jpg'
+import slideImageTwo from '../../../public/images/slide-2.jpg'
+import slideImageThree from '../../../public/images/slide-3.jpg'
+import slideImageFour from '../../../public/images/slide-4.jpg'
 
 export default function ch_06() {
     return (

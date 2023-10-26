@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import blogImage from '../../public/images/blog.svg'
-import githubImage from '../../public/images/github.svg'
+import blogImage from '../../../public/images/blog.svg'
+import githubImage from '../../../public/images/github.svg'
 
 export default function ch_01() {
     return (

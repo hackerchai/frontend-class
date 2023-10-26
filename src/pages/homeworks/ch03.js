@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import exImage from '../../public/images/messi.jpeg'
+import exImage from '../../../public/images/messi.jpeg'
 
 
 export default function ch_03() {

@@ -18,10 +18,10 @@ export default function Header() {
             alt="Tailwind CSS logo"
           />
 
-          <Link href="/">
-            <a className="text-lg md:text-xl font-bold ml-3 text-white">
+          <Link href="/" className="text-lg md:text-xl font-bold ml-3 text-white">
+            
               Hackerchai Lab
-            </a>
+            
           </Link>
         </div>
 
@@ -50,8 +50,8 @@ export default function Header() {
             { title: "Blog", route: "https://blog.hackerchai.com" },
           ].map(({ route, title }) => (
             <li className="mt-3 md:mt-0 md:ml-6" key={title}>
-              <Link href={route}>
-                <a className="block text-white">{title}</a>
+              <Link href={route} className="block text-white">
+                {title}
               </Link>
             </li>
           ))}

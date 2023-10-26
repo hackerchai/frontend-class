@@ -1,5 +1,5 @@
 import login from '../../styles/login.module.css'
-import catImage from '../../public/images/cat.png'
+import catImage from '../../../public/images/cat.png'
 import Image from 'next/image'
 
 export default function ex_01() {
